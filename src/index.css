@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply bg-zinc-500 p-1 text-zinc-100 transition-all duration-300 hover:bg-zinc-400 hover:text-zinc-50;
+}
+
+input {
+  @apply bg-zinc-700 p-1;
+}
+
+select {
+  @apply bg-zinc-600 p-1;
+}
+
+textarea {
+  @apply bg-zinc-500 p-1;
+}
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    @apply appearance-none;
+  }
+}
