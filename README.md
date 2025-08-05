@@ -1,5 +1,7 @@
-Site: https://docu-gen.com/
-Tutorials: https://www.youtube.com/@docu-gen
+Site: https://docu-gen.com/  
+
+Tutorials: https://www.youtube.com/@docu-gen  
+
 
 Resume-maker turned into Docu-Gen - it's essentially a UI for React PDF.
 
